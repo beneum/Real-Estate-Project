@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: rgb(222, 237, 246);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    color: aliceblue;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background: aliceblue !important;
+}
+
+/* 크롬에서 스크롤바 없애기 */
+html::-webkit-scrollbar{
+    display: none;
+}
+
+/* 파이어폭스에서 스크롤바 없애기 */
+html{
+    scrollbar-width: none;
+}
